@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="lg:col-span-2 space-y-6">
             <img src={logo} alt="Thalita Melo Advocacia" className="h-28 md:h-32 brightness-0 invert" />
             <p className="text-primary-foreground/70 leading-relaxed max-w-md">
-              Advocacia humanizada em Juazeiro do Norte (CE). Defendemos seus direitos 
+              Advocacia humanizada no Cariri (CE). Defendemos seus direitos 
               trabalhistas, previdenciários, civis e de família com dedicação e empatia.
             </p>
             <div className="flex gap-4">
