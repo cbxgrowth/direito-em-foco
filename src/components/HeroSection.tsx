@@ -4,9 +4,7 @@ import logo from "@/assets/logo.png";
 import heroImage from "@/assets/thalita-hero.jpg";
 
 const HeroSection = () => {
-  const whatsappNumber = "5588996038447";
-  const whatsappMessage = encodeURIComponent("Olá! Gostaria de agendar uma consulta.");
-  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+  const whatsappLink = "https://wa.me/5588996017070";
 
   return (
     <section className="relative min-h-screen bg-gradient-hero overflow-hidden">
@@ -21,7 +19,7 @@ const HeroSection = () => {
             className="hidden md:flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
           >
             <MessageCircle className="w-4 h-4" />
-            (88) 99603-8447
+            (88) 99601-7070
           </a>
         </div>
       </header>
