@@ -71,7 +71,7 @@ const ConsultationPopup = ({ open, onOpenChange }: ConsultationPopupProps) => {
   const onSubmit = async (data: ConsultationFormData) => {
     setIsSubmitting(true);
     
-    // Simulate API call - replace with actual backend when Lovable Cloud is enabled
+    // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 1500));
     
     // For now, open WhatsApp with the data
