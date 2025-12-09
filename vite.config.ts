@@ -8,6 +8,16 @@ export default defineConfig({
     host: "::",
     port: 8080,
   },
+  build: {
+    outDir: "dist",
+    sourcemap: false,
+    minify: "terser",
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      },
+    },
+  },
   plugins: [react()],
   resolve: {
     alias: {
